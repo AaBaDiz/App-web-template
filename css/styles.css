@@ -1,0 +1,688 @@
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+/* RESPONSIBLE/GENERAL CASES CSS */
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* ---IDS--- */
+#cta {
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+}
+
+#features-container {
+    text-align: center;
+}
+
+#footer {
+    padding-top: 2rem;
+    padding-bottom: 0.7rem;
+
+    font-size: 110%;
+    text-align: center;  
+}
+
+#headline-image {
+    position: absolute;
+}
+
+#pricing {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+/* ---CLASSES--- */
+.card-description-container {
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+}
+
+.card-title {
+    font-weight: 900;
+    text-align: center;
+}
+
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    background-color: #000000;
+    border-radius: 100%;
+}
+
+.carousel-control-prev{
+    padding-right: 5%;
+}
+
+.carousel-control-prev-icon {
+    filter: invert(0%) sepia(2%) saturate(7464%) hue-rotate(84deg) brightness(0%) contrast(10000%);
+}
+
+.carousel-control-next {
+    padding-left: 5%;
+}
+
+.carousel-control-next-icon {
+    filter: invert(0%) sepia(2%) saturate(7464%) hue-rotate(84deg) brightness(0%) contrast(10000%);
+}
+
+.carousel-inner {
+    text-align: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.dark-background {
+    background-color: #000000;
+}
+
+.download-btn {
+    font-family: 'Crimson Text', serif;
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+
+.hightlight-icon-dark-background {
+    padding: 0.45rem;
+    background-color: #FFD60A;
+    border-radius: 100%;
+}
+
+.hightlight-icon-light-background {
+    padding: 0.45rem;
+    background-color: #156DC1;
+    border-radius: 100%;
+}
+
+.highlight-font-dark-background {
+    color: #FFD60A;
+}
+
+.highlight-font-light-background {
+    color: #156DC1;
+}
+
+.light-background {
+    background-color: #ffffff;
+}
+
+.logo-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.section-title-light-background  {
+    font-family: 'MedievalSharp', cursive;
+    color: #003566;
+    font-weight: 700;
+}
+
+.section-title-dark-background {
+    font-family: 'MedievalSharp', cursive;
+    color: #FFD60A;
+    font-weight: 700;
+}
+
+/* Nav link */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}   
+
+/* Nav brand font */
+.navbar-dark .navbar-brand {
+    color: #ffc300;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+}
+
+.subtitle-font {
+    font-family: 'Crimson Text', serif;
+}
+
+.testimonials-font-author {
+    font-weight: 900;
+}
+
+.testimonials-font-opinion {
+    clear:both;
+    font-style: italic;
+    text-align: center;
+}
+
+.ti-brand-apple {
+    margin-right:0.7rem;
+}
+
+.ti-brand-google-play {
+    margin-right: 0.7rem;
+}
+
+.title-font {
+    font-family: 'MedievalSharp', cursive;
+}
+
+/* ---COMPONENTS---- */
+#pricing .card-description {
+    font-size: 110%;
+}
+
+#pricing .card-subtitle {
+    color: white;
+    font-size: 120%;
+}
+
+#pricing .card-title {
+    font-size: 150%;
+}
+
+#pricing .row {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+
+#press .row {
+    text-align: center;
+}
+
+h2, h3, h4, h5, h6, a, p {
+    font-family: 'Crimson Text', serif;
+}
+
+p.features-font {
+    color: #ffffff;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+/* EXTRA LARGE SCREEN CSS */
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (min-width: 1720px){
+    /* ---IDs--- */
+        #features-container {        
+            z-index: 1;
+            position: relative;        
+            margin-bottom: 2rem;
+            top: 20rem;
+            padding: 1rem 2rem 1rem 2rem;
+        }
+    
+        #headline-image {
+            width: 35rem;
+            transform: rotate(0deg);
+            top: 0rem;
+            left: 13rem;
+        }
+
+        #press {
+            padding-top: 3.5rem;
+            padding-bottom: 1.5rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    
+        #testimonials {
+            margin-top: 25rem;
+            margin-bottom: 3rem;
+        }
+    
+    /* ---CLASSES--- */
+        .col-press-icon {
+            margin: 2rem 1rem 2rem 1rem;
+            width: 14rem;
+        }
+
+        .features-icon {
+            width: 12rem;
+            margin: 2rem;
+        }  
+        
+        .section-title-light-background  {
+            font-size: 3.5rem;
+        }
+        
+        .section-title-dark-background {
+            font-size: 3.5rem;
+        }
+        
+        .subtitle-font {
+            font-size: 3.6rem;
+            margin-top: 1.5rem;
+            text-align: justify;
+        }    
+    
+        .testimonials-font-author {
+            font-size: 1.8rem;
+            margin-top: 1.5rem;
+            font-weight: 900;
+        }
+        
+        .testimonials-font-opinion {
+            font-size: 2.3em;
+            text-align: justify;
+        }
+    
+        .testimonials-icon {
+            width: 16rem;
+            margin-top: 3%; 
+            border-radius: 100%;   
+        }
+    
+        .title-font {
+            font-size: 4rem;
+            text-align: justify;
+        }
+
+        /* ---COMPONENTS--- */
+        h3.features-font {
+            font-size: 1.7rem;
+        }
+        
+        p.features-font {
+            font-size: 1.4rem;
+        }        
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+/* LARGE SCREEN CSS */
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 1720px){
+/* ---IDs--- */
+    #features-container {        
+        z-index: 1;
+        position: relative;        
+        margin-bottom: 2rem;
+        top: 20rem;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+
+    #headline-image {
+        width: 50%;
+        transform: rotate(15deg);
+        top: 2.5rem;
+        left: 13rem;
+    }
+
+    #press {
+        padding-top: 3.5rem;
+        padding-bottom: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #testimonials {
+        margin-top: 25rem;
+        margin-bottom: 3rem;
+    }
+
+/* ---CLASSES--- */
+    /* Nav link font */
+    .col-press-icon {
+        margin: 2rem 1rem 2rem 1rem;
+        width: 12rem;
+    }
+
+    .container-lg-left-md-center {
+        text-align: left;
+    }
+
+    .download-btn {
+        margin-right: 1.5rem;
+    }    
+    
+    .features-icon {
+        width: 6.2rem;
+        margin: 2rem;
+    }
+    
+    .logo-icon {
+        margin-right: 0rem;
+        margin-left: -1rem;
+    }
+
+    .navbar-dark {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }    
+    
+    .navbar-dark .navbar-nav .nav-link {
+        padding-bottom: 1rem;
+    }
+
+    .section-title-light-background  {
+        font-size: 2.5rem;
+    }
+    
+    .section-title-dark-background {
+        font-size: 2.5rem;
+    }
+        
+    .subtitle-font {
+        font-size: 2.1rem;
+        margin-top: 1.5rem;
+        text-align: justify;
+    }    
+
+    .testimonials-font-author {
+        font-size: 1.8rem;
+        margin-top: 1.5rem;
+        font-weight: 900;
+    }
+    
+    .testimonials-font-opinion {
+        font-size: 2.3em;
+        text-align: justify;
+    }
+
+    .testimonials-icon {
+        width: 10rem;
+        margin-top: 3%; 
+        border-radius: 100%;   
+    }
+
+    .title-font {
+        font-size: 2.5rem;
+        text-align: justify;
+    }
+
+/* ---COMPONENTS---- */
+    h3.features-font {
+        font-size: 1.7rem;
+    }
+
+    p.features-font {
+        font-size: 1.4rem;
+    }
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+/* SCREEN SPECIAL CASE: HEADLINE BETWEEN LARGE AND MEDIUM SCREEN - CSS */
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 1360px) and (min-width: 992px) {
+/* ---IDs--- */
+    #features-container {        
+        z-index: 1;
+        position: absolute;
+        margin-top: 15rem;
+        padding-bottom: 2.5rem;
+    }
+
+    #headline-image {        
+        width: 11.5rem;
+        margin-left: 14rem;
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #testimonials {
+        margin-top: 27rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* ---CLASSES--- */
+    .features-icon {
+        width: 7rem;
+        margin: 2rem 0rem 1rem 0rem;
+    }
+
+    h3.features-font {
+        font-size: 1.5rem;
+    }
+    
+    p.features-font {
+        font-size: 1.2rem;
+    }
+
+    .testimonials-font-opinion {
+        font-size: 2.3em;
+        text-align: justify;
+    }
+
+    .testimonials-icon {
+        width: 10rem;
+        margin-top: 3%; 
+        border-radius: 100%;   
+    }
+
+    .title-font {
+        font-size: 2.5rem;
+        text-align: justify;
+    }
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+/* MEDIUM SCREEN CSS */
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 991.5px) and (min-width: 768px) {
+
+/* ---IDs--- */
+    #features-container {        
+        z-index: 1;
+        position: absolute;
+        margin-top: 65%;
+        padding-bottom: 2rem;
+    }
+
+    #headline-image {        
+        width: 30%;
+        position: static;
+        transform: rotate(0deg);
+        margin-top: 0.8rem;
+    }
+
+    #press {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    #testimonials {
+        margin-top: 54.5rem;
+        margin-bottom: 1rem;
+    }
+
+
+/* ---CLASSES--- */
+    .col-press-icon {
+        margin: 1rem;
+        width: 8.5rem;
+    }
+
+    .container-lg-left-md-center {
+        text-align: center;
+    }
+
+    .download-btn {
+        margin-right: 0rem;
+        font-size: 1rem;
+    }
+
+    .features-icon {
+        width: 7rem;
+        margin: 2rem 0rem 1rem 0rem;
+    }
+
+    .logo-icon {
+        margin-right: 0.75rem;
+        margin-left: -0.6rem;
+    }
+
+    /* Nav link font */
+    .navbar-dark {
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link {
+        padding-bottom: 1rem;
+    }
+
+    .section-title-light-background  {
+        font-size: 2rem;
+    }
+    
+    .section-title-dark-background {
+        font-size: 2rem;
+    }
+
+    .subtitle-font {
+        font-size: 1.9rem;
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+
+    .testimonials-font-author {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        font-weight: 900;
+    }
+    
+    .testimonials-font-opinion {
+        font-size: 1.85em;
+        text-align: center;
+    }
+
+    .testimonials-icon {
+        width: 10rem;
+        margin-top: 3%; 
+        border-radius: 100%;   
+    }
+    
+    .title-font {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+    
+/* ---COMPONENTS---- */
+    h3.features-font {
+        font-size: 1.5rem;
+    }
+
+    p.features-font {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+/* SMALL SCREEN CSS */
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 768px) {
+/* ---IDs--- */
+    #features-container {        
+        z-index: 1;
+        position: absolute;
+        margin-top: 65%;
+        padding-bottom: 1.115rem;
+    }
+
+    #headline-image {        
+        width: 30%;
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #press {
+        padding-top: 1.5rem;
+        padding-bottom: 0.2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #testimonials {
+        margin-top: 40.7rem;
+        margin-bottom: 1rem;
+    }
+
+/* ---CLASSES--- */
+    .col-press-icon {
+        width: 7rem;
+    }
+
+    .container-lg-left-md-center {
+        text-align: center;
+    }
+
+    .download-btn {
+        margin-right: 0rem;
+        font-size: 0.8rem;
+    }
+
+    .features-icon {
+        width: 4rem;
+        margin: 1.1rem 0rem 0.5rem 0rem;
+    }
+    
+    .logo-icon {
+        margin-right: 1rem;
+        margin-left: 0rem;
+    }
+
+    /* Nav link font */
+    .navbar-dark .navbar-nav .nav-link {
+        padding-top: 1rem;
+    }
+
+    .navbar-dark {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .section-title-light-background  {
+        font-size: 1.7rem;
+    }
+    
+    .section-title-dark-background {
+        font-size: 1.7rem;
+    }
+
+    .subtitle-font {
+        font-size: 1.7rem;
+        margin-top: 1.3rem;
+        text-align: center;
+    }
+    
+    .testimonials-font-author {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+        margin-bottom: 2.5rem;
+        font-weight: 900;
+    }
+    
+    .testimonials-font-opinion {
+        font-size: 1.60em;
+        text-align: center;
+    }
+
+    .testimonials-icon {
+        width: 9rem;
+        margin-top: 3%; 
+        border-radius: 100%;   
+    }
+    
+    .title-font {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+/* ---COMPONENTS---- */
+    h3.features-font {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+    }
+
+    p.features-font {
+        font-size: 1.2rem;
+    }
+}
